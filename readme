@@ -1,0 +1,12 @@
+Ahiber is android lib for sqlite.This lib use the hibernate tech to depart the db code from the java code,so if you are db manager you can't need to
+care about the java logic,what you should do is write a effective db code for java coder.
+
+All db code will be put in *.xml files and java coder should define the method which used in java code,then the db coder should impments the
+method in *.xml.Ahiber will load all *.xml files and find the method in the file(the *.xml format will be descript in Ahiber/readme.txt).
+Reflect will be used to map relation to object and annotaion will be used to map object property to field in db
+
+This lib will use lib_utils so you should add below code in your gradle file
+
+<b>
+ compile project(':lib_utils')
+</b>
