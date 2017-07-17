@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\disco\app\android\application\lib_utils\src\main\assets"/><source path="D:\disco\app\android\application\lib_utils\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\disco\app\android\application\lib_utils\src\release\assets"/></dataSet></merger>
